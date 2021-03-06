@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&family=Open+Sans");
 body {
-    background-color: hsl(217, 28%, 15%);
+    background-color: hsl(218, 28%, 13%);
     color: #fff;
     font-family: 'raleway';
     font-size: 16px;
@@ -182,25 +182,37 @@ nav.nav-bar {
     display: flex;
     align-items: center;
 }
-.bottom-2{
-    background-color: hsl(218, 28%, 13%)
-    padding: 10px;
+.bottom-2 .box{
+    background-color: hsl(217, 28%, 15%);
+    padding: 30px 0px;
     text-align: center;
     width: 50%;
     display: block;
     margin-block: 8em;
+    margin: auto;
+    margin-top: 100px;
 }
 
-.button-2 #empty-button{
+.bottom-2{
+    display: flex;
+}
+
+.bottom-2 #empty-button input{
     border-radius: 50px;
-    width: 200px;
+    height: 28px;
+    width: 380px
 }
 
 .bottom-2 .button{
     background-color: hsl(194, 60%, 54%);
     border-radius: 50px;
-    width: 200px;
+    width: 100px;
     float: right;
+    
+}
+.icon-text{
+    display: grid;
+    grid-template-columns: 10% 90%
 }
 
 .footer-box{
@@ -209,8 +221,18 @@ nav.nav-bar {
 
 .footer-info{
     display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .footer-info div{
     display: block;
+}
+
+.lorem{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+.footer-info ul{
+    text-decoration: none;
+    list-style-type: none;
 }
