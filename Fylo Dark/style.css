@@ -44,6 +44,10 @@
         float: left;
     }
     
+    .header ul {
+        display: block
+    }
+    
     .links {
         /* float: right; */
         display: flex;
