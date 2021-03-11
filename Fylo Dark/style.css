@@ -43,10 +43,9 @@
     .nav-bar .logo {
         float: left;
     }
-    
-    .header ul {
+    /* .header ul {
         display: block
-    }
+    } */
     
     .links {
         /* float: right; */
@@ -289,6 +288,17 @@
     .card .bottom ul{
         margin-top: 25px;
     } */
+        .header ul {
+            display: flex;
+        }
+        .logo img {
+            width: 70px;
+        }
+        .nav-bar .logo {
+            float: left;
+            display: flex;
+            align-items: center;
+        }
         .getting-started {
             padding: 2% 1em;
         }
